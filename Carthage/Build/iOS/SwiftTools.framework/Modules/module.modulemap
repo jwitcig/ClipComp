@@ -1,0 +1,10 @@
+framework module SwiftTools {
+  umbrella header "SwiftTools.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftTools.Swift {
+    header "SwiftTools-Swift.h"
+}
